@@ -1,0 +1,24 @@
+
+Call:
+glm(formula = deposit ~ age + balance + campaign + previous + 
+    pdays, family = binomial, data = sample_data)
+
+Coefficients:
+              Estimate Std. Error z value Pr(>|z|)  
+(Intercept) -5.312e-01  2.412e-01  -2.203   0.0276 *
+age          8.410e-03  5.325e-03   1.579   0.1143  
+balance      6.309e-05  2.658e-05   2.373   0.0176 *
+campaign    -7.387e-02  2.989e-02  -2.471   0.0135 *
+previous     1.202e-01  4.710e-02   2.553   0.0107 *
+pdays        1.474e-03  8.107e-04   1.818   0.0690 .
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 1383.2  on 999  degrees of freedom
+Residual deviance: 1333.0  on 994  degrees of freedom
+AIC: 1345
+
+Number of Fisher Scoring iterations: 4
+
